@@ -10,13 +10,22 @@
 
 ## 🚀 Quick start
 
+1.  **Create a Gatsby site.**
+
+    Use the Gatsby CLI to create a new site, specifying the default starter.
+
+    ```shell
+    # create a new Gatsby site using the default starter
+    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    ```
+
 1.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-default-starter/
-    npm install 
+    cd blog-template
+    npm install
     gatsby develop
     ```
 
@@ -31,6 +40,7 @@
 ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
+
     .
     ├── node_modules
     ├── src
@@ -68,6 +78,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
 12. **`README.md`**: A text file containing useful reference information about your project.
+
 
 ## 💫 Deploy
 
