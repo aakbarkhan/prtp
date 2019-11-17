@@ -1,0 +1,20 @@
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.blog-card {
+  margin-bottom: 1.5em;
+  padding: 2em;
+  box-shadow: 0px 0px 6px grey;
+  font-family: 'Helvetica';
+  width: 20em;
+}
+
+.blog-title {
+  font-size: 2em;
+  color: grey;
+  margin-bottom: 0px; 
+}
