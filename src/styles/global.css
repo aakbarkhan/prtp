@@ -18,3 +18,17 @@
   color: grey;
   margin-bottom: 0px; 
 }
+
+.nav-container ul{
+  list-style-type: none;
+}
+
+.nav-container h1 {
+  float: left;
+  font-size: 25px;
+}
+
+.nav-container li {
+  float: right;
+  font-size: 25px;
+}

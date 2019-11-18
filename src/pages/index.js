@@ -6,13 +6,14 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import Blogs from "../components/blogs"
+import Nav from "../components/nav"
 
 const IndexPage = ({ data }) => {
-  // const { frontmatter, excerpt } = data.about.edges[0].node;
   
   return(
     <Layout>
       <SEO title="Home" />
+      <Nav />
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
@@ -41,6 +42,7 @@ export const query = graphql`
           title
           date
           read
+          topic
         }
         excerpt
       }
