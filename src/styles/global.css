@@ -57,6 +57,38 @@ a {
 }
 /* ========================================== */
 
+/* Responsive Blog Cards */
+@media all and (max-width: 1200px) {  
+   
+  .layout-container { 
+    padding-right: 4em;
+    padding-left: 4em;
+  }
+  
+  .blog-card {  
+    width: 46%;
+  }  
+  
+  a {
+    margin-right: 8%;
+  }
+  
+}
+
+@media all and (max-width: 800px) {  
+    
+  .blog-card {  
+    width: 100%;
+  }  
+    
+  .layout-container { 
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+
+}
+
+
 
 
 /* Navbar nav.js ============================= */
