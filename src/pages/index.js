@@ -6,14 +6,12 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import Blogs from "../components/blogs"
-import Nav from "../components/nav"
 
 const IndexPage = ({ data }) => {
   
   return(
     <Layout>
       <SEO title="Home" />
-      <Nav />
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
