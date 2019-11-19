@@ -10,7 +10,7 @@ const Blogs = ({ data }) => {
         
         <Link key={node.id} to={node.fields.slug} style={{ textDecoration: 'none', color: 'inherit'}}>
           <div className="blog-card">
-            <Img sizes={node.frontmatter.image.childImageSharp.sizes} />
+            <Img className="blog-thumbnail" sizes={node.frontmatter.image.childImageSharp.sizes} />
             <div className="blog-description">
               <p className="blog-date-topic">{node.frontmatter.date} &nbsp;&nbsp; ———— &nbsp;&nbsp;{node.frontmatter.topic}</p>
               <h3 className="blog-title">{node.frontmatter.title}</h3>
