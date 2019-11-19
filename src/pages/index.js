@@ -6,17 +6,15 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import Blogs from "../components/blogs"
-import Nav from "../components/nav"
 
 const IndexPage = ({ data }) => {
   
   return(
     <Layout>
       <SEO title="Home" />
-      <Nav />
-      {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}> */}
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
+        
       </div>
       <Blogs data={data.blog}/>
       <Link to="/page-2/">Go to page 2</Link>
@@ -44,13 +42,13 @@ export const query = graphql`
           date
           read
           topic
-          featuredImage {
-            childImageSharp {
-              fluid(maxWidth: 800) {
-                ...GatsbyImageSharpFluid
-              }
+          image {
+            childImageSharp{
+                sizes(maxWidth: 630) {
+                    ...GatsbyImageSharpSizes
+                }
             }
-          }
+        }
         }
         excerpt(pruneLength: 200)
       }
@@ -58,3 +56,11 @@ export const query = graphql`
   }
 }
 `
+
+// hero {
+//   childImageSharp {
+//     fluid(maxWidth: 800) {
+//       ...GatsbyImageSharpFluid
+//     }
+//   }
+// }

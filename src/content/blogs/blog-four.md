@@ -2,10 +2,10 @@
 title: "Pizza Tour"
 date: "November 16, 2019"
 read: "1 min read" 
-topic: "FOOD"
-featuredImage: ../../images/tea.jpg
----
+topic: FOOD
+image: "../../images/tea.jpg"
 
+---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget euismod dolor. Aenean condimentum maximus auctor. Nunc quis maximus urna. Sed condimentum consequat quam, in venenatis est suscipit ac. Suspendisse potenti. Morbi imperdiet aliquet metus, non tempor justo pretium a. Sed nec laoreet nunc. In hac habitasse platea dictumst. Aliquam sagittis magna vitae metus euismod, porta pellentesque metus scelerisque. Ut et tortor lobortis, venenatis nunc et, volutpat augue. Sed vestibulum risus vel arcu euismod malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
