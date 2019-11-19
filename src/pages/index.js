@@ -14,6 +14,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Home" />
       <Nav />
+      {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}> */}
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
@@ -43,8 +44,15 @@ export const query = graphql`
           date
           read
           topic
+          featuredImage {
+            childImageSharp {
+              fluid(maxWidth: 800) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
-        excerpt
+        excerpt(pruneLength: 200)
       }
     }
   }
