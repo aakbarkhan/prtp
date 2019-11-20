@@ -1,21 +1,18 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import SEO from "../components/Seo"
 
-import Blogs from "../components/blogs"
+import Blogs from "../components/BlogCards"
+import FeaturedBlog from "../components/FeaturedBlog"
 
 const IndexPage = ({ data }) => {
   
   return(
     <Layout>
       <SEO title="Home" />
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-        
-      </div>
+      <FeaturedBlog data={data.blog}/>
       <Blogs data={data.blog}/>
       <Link to="/page-2/">Go to page 2</Link>
     </Layout>

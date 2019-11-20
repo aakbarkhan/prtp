@@ -1,5 +1,5 @@
 ---
-title: "Featured Blog"
+title: "My Tokyo Trip"
 date: "May 1st, 2019"
 read: "1 min read" 
 topic: "feature"
