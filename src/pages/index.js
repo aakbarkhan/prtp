@@ -15,6 +15,7 @@ const IndexPage = ({ data }) => {
       <FeaturedBlog data={data.blog}/>
       <Blogs data={data.blog}/>
       <Link to="/page-2/">Go to page 2</Link>
+      <Link to="/about/">Go to about</Link>
     </Layout>
   );
 }

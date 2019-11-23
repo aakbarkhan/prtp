@@ -35,6 +35,9 @@
 
 .featured-blog-thumbnail {
   height: auto;
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
 }
 
 .featured-blog-title {
@@ -191,4 +194,64 @@
 /* POSTPAGE - ============================= */
 .post-image{
   width: 40%;
+}
+/* ========================================== */
+
+
+
+
+/* ABOUTPAGE - ============================= */
+
+
+.bio-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  text-align: left;
+} 
+
+.bio-image {
+  object-fit: cover;
+  width: 100%;
+  margin: 0px;
+}
+
+.containy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: red 2px solid; */
+  margin-left: 20%;
+}
+
+.containy h1 {
+  color: #BAC0C0;
+  
+}
+
+.name {
+  font-size: 2.6em;
+  font-family: Roboto;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.short-bio {
+  font-size: 1.1em;
+  font-family: Lora;
+  width: 90%;
+  margin: 0px;
+}
+
+
+.biography-container {
+  margin: 5% 20%;
+}
+
+.biography-container span {
+  font-size: 40px;
+  font-weight: bold;
 }

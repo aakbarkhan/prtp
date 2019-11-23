@@ -43,7 +43,7 @@ class Nav extends React.Component  {
             <div className="underline"></div>
           </li>
           <li className={about_classname}>
-            <Link to="/" onClick={this.clickAbout}>About</Link>
+            <Link to="/about" onClick={this.clickAbout}>About</Link>
             <div className="underline"></div>
           </li>
         </ul>
