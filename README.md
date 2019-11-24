@@ -6,10 +6,10 @@
 
 ## 🛠 Installation & Set Up
 
-1. Install the Gatsby CLI 
+1. Install the Gatsby CLI  
 ```npm install -g gatsby-cli```
 
-2. Clone Amelie repository 
+2. Clone Amelie repository  
 ```https://github.com/tobyau/Amelie.git```
 
 3. Navigate into the site directory and install dependencies 
