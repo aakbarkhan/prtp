@@ -8,7 +8,7 @@ import FeaturedBlog from "../components/FeaturedBlog"
 const IndexPage = ({ data }) => {
   return(
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Amelie" />
       <FeaturedBlog data={data.blog}/>
       <BlogCards data={data.blog}/>
     </Layout>
