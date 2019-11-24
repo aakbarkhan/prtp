@@ -10,7 +10,7 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <div className = "bio-container">
-            <img className="bio-image" src={ppl}  />
+            <img className="bio-image" src={ppl} alt='' />
 
           <div className="containy">
             <h1 className="name">Hi I'm Julia</h1> 
