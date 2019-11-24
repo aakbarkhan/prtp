@@ -9,13 +9,11 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <div className = "bio-container">
-            <img className="bio-image" src={ppl} alt='' />
-
-          <div className="containy">
-            <h1 className="name">Hi I'm Julia</h1> 
-            <h1 className="short-bio">An entrepenuer, blogger, foodie, and life-style guru dedicated to helping you become the best person you can be.</h1> 
-          </div>
-
+      <img className="bio-image" src={ppl} alt='' />
+      <div className="containy">
+        <h1 className="name">Hi I'm Julia</h1> 
+        <h1 className="short-bio">An entrepenuer, blogger, foodie, and life-style guru dedicated to helping you become the best person you can be.</h1> 
+      </div>
     </div>
     
     <div className="biography-container">

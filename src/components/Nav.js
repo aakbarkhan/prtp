@@ -32,7 +32,7 @@ class Nav extends React.Component  {
         is_post: false,
         home_classname: "nav-item",
         about_classname: "nav-item active-link",
-        post_nav_container: "nav-container",
+        post_nav_container: "post-nav-container",
       })
     }
   }

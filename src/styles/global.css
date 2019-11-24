@@ -348,6 +348,10 @@
     font-size: 1em;
   }
   
+  .featured-blog-thumbnail {
+    height: 450px;
+  }
+  
   .svg-icon {
     margin-left: 16px;
   }
@@ -372,6 +376,10 @@
     background-color: white;
   }
   
+  .biography-container {
+    margin: 5% 1%;
+  }
+
   .footer-content-container {
     margin-bottom: 20%;
   }
