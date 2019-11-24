@@ -70,8 +70,5 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 12. **`README.md`**: A text file containing useful reference information about your project.
 
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2a52f639-94f2-4399-990f-1c154b856b22/deploy-status)](https://app.netlify.com/sites/amelie-blog/deploys)
 
