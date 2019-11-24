@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Amelia - Blog Template 
+  Amelie - Blog Template 
 </h1>
 
 ## 🚀 Quick start
