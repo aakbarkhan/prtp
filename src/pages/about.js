@@ -26,13 +26,6 @@ const AboutPage = () => (
       
       <p>Nibh ipsum consequat nisl vel pretium lectus quam id. Arcu ac tortor dignissim convallis aenean et tortor. Vitae justo eget magna fermentum iaculis eu non diam phasellus. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Pulvinar elementum integer enim neque. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Nisl pretium fusce id velit ut tortor. Fermentum et sollicitudin ac orci phasellus. Quam adipiscing vitae proin sagittis nisl rhoncus. Blandit libero volutpat sed cras ornare. Id faucibus nisl tincidunt eget. Sed viverra ipsum nunc aliquet. Et ligula ullamcorper malesuada proin libero nunc consequat. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Blandit aliquam etiam erat velit. Nisi lacus sed viverra tellus in hac habitasse platea dictumst. Semper eget duis at tellus at urna condimentum mattis pellentesque. Magna fringilla urna porttitor rhoncus dolor purus non enim praesent. Scelerisque varius morbi enim nunc faucibus a. Vulputate dignissim suspendisse in est ante.</p>
     </div>
-    
-
-    
-
-    
-
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

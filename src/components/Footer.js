@@ -10,20 +10,22 @@ const Footer = () => {
     <div className="footer-container">
       <hr className="horizontal-line" />
       <div className="footer-content-container">
-        <div className="copyright">© 2019 Amelie</div>
+        <div className="copyright">© 2019 &nbsp;
+          <Link to="/" style={{ textDecoration: "none", color: "black"}}>Amelie</Link>
+        </div>
         <div className="social-icons-container">
-          <Link to="https://twitter.com/">
+          <a href="https://twitter.com/">
             <TwitterSVG />
-          </Link>
-          <Link to="https://medium.com/">
+          </a>
+          <a href="https://medium.com/">
             <MediumSVG />
-          </Link>
-          <Link to="https://www.linkedin.com/">
+          </a>
+          <a href="https://www.linkedin.com/">
             <LinkedInSVG />
-          </Link>
-          <Link to="https://www.instagram.com/">
+          </a>
+          <a href="https://www.instagram.com/">
             <InstagramSVG />
-          </Link>
+          </a>
         </div>
       </div>
     </div>
