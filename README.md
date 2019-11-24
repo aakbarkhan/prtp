@@ -2,9 +2,9 @@
   Amelie - Blog Template 
 </h1>
 
-## 🚀 Quick start
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2a52f639-94f2-4399-990f-1c154b856b22/deploy-status)](https://app.netlify.com/sites/amelie-blog/deploys)
+
+## 🚀 Quick start
 
 1.  **Start developing.**
 
