@@ -1,9 +1,3 @@
-/* .layout-container { 
-  padding-right: 7em;
-  padding-left: 7em;
-} */
-
-
 /* INDEXPAGE - BLOGCARDS ============================= */
 .blog-container {
   display: flex;
@@ -377,7 +371,7 @@
   }
   
   .biography-container {
-    margin: 5% 1%;
+    margin: 5% 5%;
   }
 
   .footer-content-container {

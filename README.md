@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Blog Template 
+  Amelia - Blog Template 
 </h1>
 
 ## 🚀 Quick start
