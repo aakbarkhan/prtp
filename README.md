@@ -4,15 +4,24 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2a52f639-94f2-4399-990f-1c154b856b22/deploy-status)](https://app.netlify.com/sites/amelie-blog/deploys)
 
-## 🚀 Quick start
+## 🛠 Installation & Set Up
+
+1. Install the Gatsby CLI 
+```npm install -g gatsby-cli```
+
+2. Clone Amelie repository 
+```https://github.com/tobyau/Amelie.git```
+
+3. Navigate into the site directory and install dependencies 
+```
+cd Amelie
+npm install
+```
+
+## 🚀 Running for Development
 
 1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd Amelie
-    npm install
+    ```
     gatsby develop
     ```
 
