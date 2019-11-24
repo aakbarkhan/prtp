@@ -6,7 +6,6 @@ import SEO from "../components/Seo"
 
 import BlogCards from "../components/BlogCards"
 import FeaturedBlog from "../components/FeaturedBlog"
-import Footer from "../components/Footer"
 
 const IndexPage = ({ data }) => {
   return(
@@ -14,7 +13,6 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <FeaturedBlog data={data.blog}/>
       <BlogCards data={data.blog}/>
-      <Footer data={data.social_icons}/>
     </Layout>
   );
 }
@@ -48,20 +46,6 @@ export const query = graphql`
         }
         }
         excerpt(pruneLength: 200)
-      }
-    }
-  }
-  social_icons: allMarkdownRemark(
-    filter: { fileAbsolutePath: { regex: "/social-media/"}}
-  ) {
-    edges {
-      node {
-        frontmatter {
-          instagram
-          twitter
-          medium
-          linkedin
-        }
       }
     }
   }
