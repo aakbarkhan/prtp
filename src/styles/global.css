@@ -134,9 +134,10 @@
 
 
 
-/* Navbar nav.js ============================= */
+/* Navbar Nav.js ============================= */
 .nav-container {
-  padding-top: 3rem;  
+  padding-top: 6%;  
+  font-size: 25px;
 }
 
 #nav-home {
@@ -147,14 +148,8 @@
   list-style-type: none;
 }
 
-.nav-container h1 {
-  float: left;
-  font-size: 25px;
-}
-
 .nav-container li {
   float: right;
-  font-size: 25px;
 }
 
 .nav-item-container {
@@ -165,6 +160,12 @@
 .nav-item a{
   text-decoration: none;
   color: black;
+}
+
+.nav-brand {
+  text-decoration: none;
+  color: black;
+  float: left;
 }
 
 .underline {
@@ -184,11 +185,49 @@
   width: 100%;
   transition: background-color 0.5;
 }
+
+/* navbar for blog posts  */
+.post-nav-container {
+  padding: 3% 5% 0.1% 5%;
+  font-size: 25px;
+  box-shadow: 0 6px 6px -6px rgba(0,0,0,.2);
+}
+
+.post-nav-container ul {
+  list-style-type: none;
+}
+/* ====================== */
 /* ========================================== */
 
 
-
 /* POSTPAGE - ============================= */
-.post-image{
-  width: 40%;
+.post-page-flex-container {
+  display: flex; 
+  flex-direction: row;  
 }
+
+.post-image-container {
+  width: 50%;
+}
+
+.post-image {
+  height: 85vh;
+  background-size: cover;
+}
+
+.post-content-container {
+  width: 50%;
+  padding: 0 3%;
+  overflow: scroll;
+  height: 85vh;
+}
+
+.post-content-container h1 {
+  margin-top: 8%;
+  text-align: center;
+}
+
+.post-content-container h4 {
+  text-align: center;
+}
+/* ========================================== */

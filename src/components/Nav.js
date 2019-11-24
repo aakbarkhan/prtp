@@ -6,37 +6,55 @@ class Nav extends React.Component  {
     super();
     this.state = {
       home_active: true,
+      about_active: false,
+      is_post: false,
       home_classname: "nav-item active-link",
-      about_classname: "nav-item"
+      about_classname: "nav-item",
+      post_nav_container: "nav-container",
     }
   }
   
   clickHome = () => {
-    if(this.state.home_active === false) {
-      this.setState({ 
-        home_active: true,
-        home_classname: "nav-item active-link",
-        about_classname: "nav-item"
-      });
-    }
+    this.setState({ 
+      home_active: true,
+      about_active: false,
+      is_post: false,
+      home_classname: "nav-item active",
+      about_classname: "nav-item",
+      post_nav_container: "nav-container",
+    });
   }
   
   clickAbout = () => {
-    if(this.state.home_active === true) {
+    this.setState({ 
+      home_active: false,
+      about_active: true,
+      is_post: false,
+      home_classname: "nav-item",
+      about_classname: "nav-item active",
+      post_nav_container: "nav-container",
+    })
+  }
+  
+  componentDidMount() {
+    if(window.location.href.includes("blogs")) {
       this.setState({ 
         home_active: false,
+        about_active: false,
+        is_post: true,
         home_classname: "nav-item",
-        about_classname: "nav-item active-link"
+        about_classname: "nav-item",
+        post_nav_container: "post-nav-container",
       })
     }
   }
   
   render() {
-    const { home_classname, about_classname } = this.state; 
+    const { home_classname, about_classname, post_nav_container } = this.state; 
     
     return(
-      <div className="nav-container">
-        <h1 className="nav-brand">Amelia</h1>
+      <div className={post_nav_container} id="nav-bar">
+        <Link to="/" className="nav-brand">Amelia</Link>
         <ul className="nav-item-container">
           <li className={home_classname} id="nav-home">
             <Link to="/" onClick={this.clickHome}>Home</Link>

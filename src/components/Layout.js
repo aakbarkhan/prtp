@@ -12,7 +12,6 @@ import Nav from "../components/Nav"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-
   return (
     <div className="layout-container">
       <Nav />
@@ -24,11 +23,11 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        {/* <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        </footer> */}
       </div>
     </div>
   )

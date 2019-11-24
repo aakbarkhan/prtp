@@ -1,5 +1,5 @@
 ---
-title: "My Tokyo Trip"
+title: "My Trip to Tokyo"
 date: "May 1st, 2019"
 read: "1 min read" 
 topic: "feature"

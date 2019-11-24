@@ -1,20 +1,20 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 
-import Blogs from "../components/BlogCards"
+import BlogCards from "../components/BlogCards"
 import FeaturedBlog from "../components/FeaturedBlog"
+import Footer from "../components/Footer"
 
 const IndexPage = ({ data }) => {
-  
   return(
     <Layout>
       <SEO title="Home" />
       <FeaturedBlog data={data.blog}/>
-      <Blogs data={data.blog}/>
-      <Link to="/page-2/">Go to page 2</Link>
+      <BlogCards data={data.blog}/>
+      <Footer data={data.social_icons}/>
     </Layout>
   );
 }
@@ -51,13 +51,19 @@ export const query = graphql`
       }
     }
   }
+  social_icons: allMarkdownRemark(
+    filter: { fileAbsolutePath: { regex: "/social-media/"}}
+  ) {
+    edges {
+      node {
+        frontmatter {
+          instagram
+          twitter
+          medium
+          linkedin
+        }
+      }
+    }
+  }
 }
 `
-
-// hero {
-//   childImageSharp {
-//     fluid(maxWidth: 800) {
-//       ...GatsbyImageSharpFluid
-//     }
-//   }
-// }
