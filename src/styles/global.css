@@ -20,6 +20,10 @@
   width: 20em;
 }
 
+.blog-description {
+  background-color: white;
+}
+
 /* Featured Blog Card ================ */
 .featured-blog-container {
   margin-bottom: 4em;
@@ -196,7 +200,6 @@
 .post-nav-container ul {
   list-style-type: none;
 }
-/* ====================== */
 /* ========================================== */
 
 
@@ -220,6 +223,7 @@
   padding: 0 3%;
   overflow: scroll;
   height: 85vh;
+  background-color: white;
 }
 
 .post-content-container h1 {
@@ -229,5 +233,26 @@
 
 .post-content-container h4 {
   text-align: center;
+}
+/* ========================================== */
+
+/* Footer  ================================== */
+.footer-container {
+  width: 85%;
+  margin: auto;
+  padding: 8% 0;
+}
+
+.social-icons-container {
+  display: flex;
+  float: right;
+}
+
+.svg-icon {
+  margin-left: 40px;
+}
+
+.copyright {
+  float: left;
 }
 /* ========================================== */

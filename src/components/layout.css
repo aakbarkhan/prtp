@@ -5,6 +5,7 @@ html {
 }
 html, body {
   height: 100%;
+  background-color: rgb(244, 248, 251);
 }
 body {
   margin: 0;
