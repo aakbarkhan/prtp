@@ -92,6 +92,8 @@
 .nav-container {
   padding-top: 6%;  
   font-size: 25px;
+  margin: 0 auto;
+  max-width: 1300px;
 }
 
 #nav-home {
