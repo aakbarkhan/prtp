@@ -1,15 +1,33 @@
 import React from 'react'
+import { Link } from "gatsby"
+import InstagramSVG from "../Icons/InstagramSVG"
+import LinkedInSVG from "../Icons/LinkedInSVG"
+import MediumSVG from "../Icons/MediumSVG"
+import TwitterSVG from "../Icons/TwitterSVG"
 
-export default function Footer({ data }) {
-  // const { twitter, instagram, medium, linkedin } = data.edges[0].node.frontmatter;
+const Footer = () => {
   return (
-    <div>
+    <div className="footer-container">
       <hr className="horizontal-line" />
-      <div className="social-icons-container">
-        <a href="" target="_blank" className="social-icon twitter">
-
-        </a>
+      <div className="footer-content-container">
+        <div className="copyright">© 2019 Amelie</div>
+        <div className="social-icons-container">
+          <Link to="https://twitter.com/">
+            <TwitterSVG />
+          </Link>
+          <Link to="https://medium.com/">
+            <MediumSVG />
+          </Link>
+          <Link to="https://www.linkedin.com/">
+            <LinkedInSVG />
+          </Link>
+          <Link to="https://www.instagram.com/">
+            <InstagramSVG />
+          </Link>
+        </div>
       </div>
     </div>
   )
-};
+}
+
+export default Footer;
