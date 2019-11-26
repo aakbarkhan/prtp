@@ -2,6 +2,10 @@
   Amelie - Blog Template 
 </h1>
 
+## 👁 Demo
+
+https://amelie-blog.netlify.com/
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2a52f639-94f2-4399-990f-1c154b856b22/deploy-status)](https://app.netlify.com/sites/amelie-blog/deploys)
 
 ## 🛠 Installation & Set Up
