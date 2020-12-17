@@ -1,6 +1,6 @@
 ---
 title: "A Guide To Healthy Breakfast"
-date: "May 1, 2019"
+date: "03/2019"
 read: "1 min read" 
 topic: "FOOD"
 image: "../../images/breakfast.jpg"

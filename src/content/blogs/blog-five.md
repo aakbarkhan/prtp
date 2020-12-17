@@ -1,6 +1,6 @@
 ---
 title: "New Camera Alert"
-date: "May 1, 2019"
+date: "05/2019"
 read: "1 min read" 
 topic: "PHOTOGRAPHY"
 image: "../../images/camera.jpg"

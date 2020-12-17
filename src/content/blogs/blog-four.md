@@ -1,6 +1,6 @@
 ---
 title: "Pizza Tour"
-date: "November 16, 2019"
+date: "04/2019"
 read: "1 min read" 
 topic: FOOD
 image: "../../images/tea.jpg"

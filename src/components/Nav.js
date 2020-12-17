@@ -41,7 +41,7 @@ class Nav extends React.Component  {
     const { home_classname, about_classname, post_nav_container } = this.state; 
     return(
       <div className={post_nav_container} id="nav-bar">
-        <Link to="/" className="nav-brand">Amelie</Link>
+        <Link to="/" className="nav-brand">Kata Architecture Prtp</Link>
         <ul className="nav-item-container">
           <li className={home_classname} id="nav-home">
             <Link to="/">Home</Link>

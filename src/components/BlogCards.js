@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Img from "gatsby-image"
 
 const BlogCards = ({ data }) => {
+  console.log(data);
   return (
     <div className="blog-container">
       {data.edges.filter(({node}) => node.frontmatter.topic !== "feature").map(

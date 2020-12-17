@@ -1,6 +1,6 @@
 ---
 title: "Plan With Me"
-date: "May 1, 2019"
+date: "02/2019"
 read: "1 min read" 
 topic: "LIFE"
 image: "../../images/planner.jpg"

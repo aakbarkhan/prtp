@@ -1,6 +1,6 @@
 ---
 title: "Museum Hopping 101"
-date: "May 1, 2019"
+date: "01/2019"
 read: "1 min read" 
 topic: "ART"
 image: "../../images/museum.jpg"

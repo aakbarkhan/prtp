@@ -1,6 +1,6 @@
 ---
 title: "Backpacking Across Europe"
-date: "06/2019"
+date: "06/2020"
 read: "1 min read" 
 topic: "TRAVEL"
 image: ../../images/europe.jpg
