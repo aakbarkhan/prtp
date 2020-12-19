@@ -5,10 +5,12 @@ import SEO from "../components/Seo"
 import BlogCards from "../components/BlogCards"
 import FeaturedBlog from "../components/FeaturedBlog"
 
+
 const IndexPage = ({ data }) => {
+  console.log(data);
   return(
     <Layout>
-      <SEO title="Amelie" />
+      <SEO title="Zenka" />
       <FeaturedBlog data={data.blog}/>
       <BlogCards data={data.blog}/>
     </Layout>

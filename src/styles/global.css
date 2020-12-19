@@ -111,7 +111,7 @@
 
 .nav-item a{
   text-decoration: none;
-  color: black;
+  color: rgb(112, 7, 7);
 }
 
 .nav-brand {
@@ -224,6 +224,7 @@
   margin: 0px;
 }
 
+
 .containy {
   position: absolute;
   top: 50%;
@@ -254,7 +255,7 @@
 
 
 .biography-container {
-  margin: 5% 20%;
+  margin: 3% 5%;
 }
 
 .biography-container span {
@@ -377,4 +378,5 @@
   .footer-content-container {
     margin-bottom: 20%;
   }
+   
 }

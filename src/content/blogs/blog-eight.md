@@ -1,15 +1,13 @@
 ---
 title: "Backpacking Across Europe"
-date: "06/2020"
+date: "08/2020"
 read: "1 min read" 
 topic: "TRAVEL"
 image: ../../images/europe.jpg
 
 
 ---
----
 
----
 
 Godfather ipsum dolor sit amet. Friends and money - oil and water. If anything in this life is certain, if history has taught us anything, it is that you can kill anyone. When they come... they come at what you love. It's not personal. It's business.
 
